@@ -1,0 +1,4 @@
+interface:
+  display_name: "Task Boundary Guard"
+  short_description: "开工先锁定任务边界，执行中防止跑偏和污染主线，适合复杂任务"
+  default_prompt: "Use $task-boundary-guard to lock the task boundary before starting this work."
