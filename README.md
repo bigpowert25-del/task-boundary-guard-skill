@@ -14,6 +14,8 @@ This Skill adds a small startup gate:
 
 这个 Skill 增加了一个轻量开工门禁：
 
+- keep the default mode as execution, not interrogation
+- 默认模式是执行，不是审问
 - define the goal
 - 明确目标
 - define what is in and out of scope
@@ -30,6 +32,19 @@ This Skill adds a small startup gate:
 For small tasks, it asks the agent to state one short boundary sentence and proceed.
 
 对小任务，它要求 Agent 用一句话锁边界，然后直接执行。
+
+It uses a simple flow budget:
+
+它使用一个简单的流畅性预算：
+
+- L0: no question; optionally state one boundary sentence and finish.
+- L0：不提问；必要时一句话定边界，然后完成。
+- L1: proceed with the smallest reversible assumption.
+- L1：用最小可逆假设继续。
+- L2: ask one question only when the answer changes the direction or deliverable.
+- L2：只有答案会改变方向或交付物时，才问一个问题。
+- L3: use a boundary card and ask only what prevents irreversible, external, or cross-project mistakes.
+- L3：使用边界卡；只问避免不可逆、外部或跨项目错误所必需的问题。
 
 For risky or long-running tasks, it asks the agent to write a compact boundary card:
 

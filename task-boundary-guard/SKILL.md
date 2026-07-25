@@ -15,6 +15,8 @@ Keep this lightweight:
 
 保持轻量：
 
+- Default to flow. Do not interrupt when the task is clear, small, reversible, and low-risk.
+- 默认保持流畅。任务清楚、小、可逆、低风险时，不打断。
 - Small tasks need one boundary sentence.
 - 小任务只需要一句边界确认。
 - Risky or long-running tasks need a compact boundary card.
@@ -42,6 +44,29 @@ Use this skill when any signal appears:
 Do not use this to slow down trivial L0 requests such as reading a file, translating one sentence, or running a harmless one-line check.
 
 不要用它拖慢简单 L0 请求，例如读一个文件、翻译一句话、运行一个无风险检查命令。
+
+## Flow Budget / 流畅性预算
+
+Default mode is execution, not interrogation.
+
+默认模式是执行，不是审问。
+
+Use the lightest guard that protects the task:
+
+使用能保护任务的最轻护栏：
+
+- L0: no question; optionally state a one-line boundary and finish.
+- L0：不提问；必要时一句话定边界，然后完成。
+- L1: proceed with the smallest reversible assumption; mention the assumption only if useful.
+- L1：用最小可逆假设继续；只有有帮助时才说明假设。
+- L2: ask one question only when the answer changes the direction or deliverable.
+- L2：只有答案会改变方向或交付物时，才问一个问题。
+- L3: use a boundary card and ask only the questions needed to avoid irreversible, external, or cross-project mistakes.
+- L3：使用边界卡；只问避免不可逆、外部或跨项目错误所必需的问题。
+
+Ask only when the gap would change the result, expand authority, add cost, touch external systems, risk private data, or pollute the current thread.
+
+只有当缺口会改变结果、扩大授权、增加成本、触碰外部系统、影响隐私数据，或污染当前主线时，才提问。
 
 ## Startup Gate / 开工门禁
 
@@ -86,9 +111,9 @@ If any missing convergence field could materially change the result, use reverse
 - Restate the boundary, then proceed only within it.
 - 重述边界，然后只在边界内行动。
 
-If the uncertainty is low-risk, choose the smallest reversible interpretation and state the assumption instead of questioning.
+If the uncertainty is low-risk, choose the smallest reversible interpretation and proceed. State the assumption only when it helps the user review the work.
 
-如果不确定性风险很低，选择最小、可逆的解释并说明假设，不必提问。
+如果不确定性风险很低，选择最小、可逆的解释并继续。只有当假设有助于用户检查结果时才说明。
 
 ## Boundary Card / 边界卡
 
